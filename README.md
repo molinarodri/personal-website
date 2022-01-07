@@ -1,7 +1,6 @@
-# personal-website
+# Molina Studios- personal website
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+On a quest to share my passion for web design and development, I developed my own personal website portfolio. Here is how I did it!
 
 ## Prerequisites
 
