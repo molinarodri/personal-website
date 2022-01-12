@@ -1,13 +1,42 @@
 <nav class="menu">
-  <LinkTo @route="index" class="menu-index">
-    <h1>SuperRentals</h1>
-  </LinkTo>
-  <div class="links">
+  <!---Top navigation bar --->
+  <div class="topNav">
+    <div class="brand">
+      <LinkTo @route="about" class="menu-img">
+        <img src="assets/images/logo.svg" alt="logo" class="navLogo menu-index" width="30px" height="30px">
+      </LinkTo>
+      <LinkTo @route="about" class="menu-index">
+        <p class="menu-index">MOLINAStudios</p>
+      </LinkTo> 
+    </div>
+    <div class="socialsContainer">
+      <div class="socials">
+        <a href="https://linkedin.com/in/laura-r-255323118" target="_blank" class="toLinkedIn">
+          <img src="assets/images/LinkedIn.svg" class="toLinkedIn">
+          <p class="toLinkedIn">LinkedIn</p>
+        </a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/molinarodri" target="_blank" class="toGithub">
+          <img src="assets/images/Github.svg" class="toGithub">
+          <p class="toGithub">GitHub</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!---Bottom navigation bar --->
+  <div class="bottomNav">
     <LinkTo @route="about" class="menu-about">
-      About
+      ABOUT
+    </LinkTo>
+    <LinkTo @route="portfolio" class="menu-portfolio">
+      PORTFOLIO
     </LinkTo>
     <LinkTo @route="contact" class="menu-contact">
-      Contact
+      CONTACT
+    </LinkTo>
+    <LinkTo @route="resume" class="menu-resume">
+      RESUME
     </LinkTo>
   </div>
 </nav>
