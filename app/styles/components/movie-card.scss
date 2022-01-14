@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+
+$movie-card-text-color: #7D7B7B;
+$card-color: #1E1E1F;
+$main-text-color: white;
+$my-red: #D62503;
+$summary-font: 'Rubik', sans-serif;
+$presents-font: 'Saira Condensed', sans-serif;
+$movieTitle-font: 'Roboto', sans-serif;
+
+/* Movie Card style */
+.movieCard {
+    background: $card-color;
+    box-shadow: 3.50933px 3.50933px 3.50933px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    border-radius: 4px;
+  
+    width: 900px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    .movieDetails {
+        width: 450px;
+        height: 450px;
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+        position: relative;
+        .presents {
+            font-family: $presents-font;
+            color: $movie-card-text-color;
+            font-size: 16px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        .movieTitle {
+            font-size: 40px;
+            color: $main-text-color;
+            font-family: $movieTitle-font;
+            margin-top: 4px;
+            margin-bottom: 0px;
+        }
+        .summary {
+            font-size: 20px;
+            font-family: $summary-font;
+            color: $main-text-color;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            flex-grow: 1;
+        }
+        .bottomContainer {
+            margin: 0px;
+            position: absolute;
+            bottom: 40px;
+            .tech {
+                color: $movie-card-text-color;
+                margin-bottom: 20px;
+              }
+            button {
+                color: $main-text-color;
+                background-color: $my-red;
+                padding: 16px 16px 16px 16px;
+                border-radius: 4px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+    .movieImg {
+        height: 450px;
+        width: 450px;
+        flex: 1;
+        object-fit: cover;
+    }
+  }
+  .movieCard:hover {
+      box-shadow: 6.50933px 6.50933px 6.50933px rgba(0, 0, 0, 0.25);
+  }
