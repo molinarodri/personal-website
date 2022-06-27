@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('portfolio');
   this.route('contact');
   this.route('resume');
+  this.route('services');
 });
