@@ -2,6 +2,9 @@
 
 On a quest to share my passion for web design and development, I developed my own personal website portfolio. Here is how I did it!
 
+## Launching July 20th, 2022!
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
